@@ -1,0 +1,41 @@
+.authentication__header {
+  color: white;
+  text-align: center;
+}
+
+.authentication {
+  width: 90%;
+  max-width: 25rem;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.authentication form {
+  margin-bottom: 1rem;
+}
+
+.authentication-item__modal-actions {
+  text-align: right;
+}
+
+.authentication-item__header {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.authentication .reset-password__container {
+  display: flex;
+}
+
+.authentication .reset-password__container button {
+  margin: 0.5rem 0.5rem 0.5rem auto;
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: purple;
+  text-decoration: underline;
+}
+
+.authentication p a {
+  text-decoration: none;
+}

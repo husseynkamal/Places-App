@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email</title>
+    <style>
+      div { width: 27rem; margin: auto; font-size: 1.2rem; } p { color: #4e4e4e;
+      } a { display: block; background-color: #47A2EA; padding: 0.7rem 0;
+      text-align: center; text-decoration: none; color: #fff !important;
+      font-weight: bold; }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Hi {{userName}},</p>
+      <p>We got a request to reset YourPlaces account password.</p>
+      <a href="http://localhost:3000/password/new/{{passwordToken}}">Reset
+        password</a>
+      <p>If you ignore this message, your password will not be changed. This
+        link will expire after 1 hour.</p>
+    </div>
+  </body>
+</html>
